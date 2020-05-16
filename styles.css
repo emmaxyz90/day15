@@ -1,0 +1,62 @@
+/** Body Alignment**/
+body{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	background-image: url(img_mountains.jpg); 
+	background-size: cover;
+	font-family: Verdana;
+}
+
+.section{
+	background-color: white;
+	margin: 10% auto;
+	width: 25%;
+	border-radius: 5px;
+	border: 5px solid #cccccc;
+}
+
+/**Input Alignment**/
+#userinput{
+	margin: 20px 50px;	
+	max-width: 400px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 1.3em;
+}
+
+#userinput:focus{
+	background:	 #f2f2f2;	
+}
+
+.sumBtn{
+	outline: none;
+	background-color: #1a1aff;
+	color: white;
+	border-radius: 30px;
+	width: 50%;
+	margin: 10px 80px;
+	padding: 5px;
+	font-size: 1.3em;
+}
+
+p{
+	font-size: 1.3em;
+	padding: 10px;
+	margin-left: 50px;	
+}
+
+span{
+	font-family:Colona MT;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.ps span{
+	font-family:Colona MT;
+	font-size: 1em;
+	padding-left: 10px;
+	font-weight: normal;
+	font-style: italic;
+}
